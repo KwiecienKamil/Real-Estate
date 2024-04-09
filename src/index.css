@@ -7,3 +7,7 @@
 .active {
     @apply block text-accent bg-white shadow-lg
 }
+
+body {
+    background-color: #E5E5E5;
+}

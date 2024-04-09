@@ -8,7 +8,7 @@ const Header = () => {
     <div className="flex justify-between h-[800px] relative">
       <div className="w-[35%] flex flex-col justify-between py-12 pl-16">
         <img src={logo} alt="logo" className="w-[80px]" />
-        <h1 className="font-lora text-5xl text-grayish font-semibold pr-8">
+        <h1 className="font-lora text-5xl text-grayish font-semibold pr-8 cursor-default">
           We Help You Building The Dreams & Bring More Than You Expect
         </h1>
         <div>

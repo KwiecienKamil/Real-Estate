@@ -11,7 +11,7 @@ export default {
       },
       colors: {
         grayish: "#434343",
-        accent: "#008B4A",
+        accent: "#00785C",
         darker: "#1F1F1F",
         bg: "#E5E5E5"
       },
