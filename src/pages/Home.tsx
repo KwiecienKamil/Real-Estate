@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import GroupsSection from '../components/GroupsSection'
+import ApartmentPreview from '../components/ui/ApartmentPreview'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <Navbar />
       <GroupsSection />
+      <ApartmentPreview />
     </div>
   )
 }

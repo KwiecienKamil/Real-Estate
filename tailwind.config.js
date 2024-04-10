@@ -13,7 +13,8 @@ export default {
         grayish: "#434343",
         accent: "#00785C",
         darker: "#1F1F1F",
-        bg: "#E5E5E5"
+        bg: "#E5E5E5",
+        smokeWhite: "#D5D5D5"
       },
     },
     keyframes: {
