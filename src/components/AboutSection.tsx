@@ -19,49 +19,19 @@ const AboutSection = () => {
           <WhatWeDo
             icon={<PiNotePencilFill />}
             title="3D Planning"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis excepturi libero nihil ad sint nostrum."
+            description="
+3D planning streamlines project development by offering detailed visualizations and analysis, enhancing decision-making and minimizing errors before implementation."
           />
           <WhatWeDo
             icon={<MdWeb />}
             title="Web Platform"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis excepturi libero nihil ad sint nostrum."
+            description="A web platform serves as an online space where users can access various services, information, or tools through a web browser."
           />
           <WhatWeDo
             icon={<AiTwotoneSound />}
             title="Marketing"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis excepturi libero nihil ad sint nostrum."
+            description="Marketing involves strategically promoting products, services, or ideas to target audiences to achieve specific business objectives."
           />
-        </div>
-        <div className="flex items-center pt-8">
-          <h3 className="text-3xl py-6 font-thin">Our Team</h3>
-        </div>
-        <div className="flex items-center">
-          <div className="w-[1600px] flex items-center justify-between pt-4">
-            <TeamMemberCard
-              memberName="Bhavik Jonathan"
-              membertitle="Founder, CEO"
-              memberPicture={member1}
-              memberPictureAlt="Bhavik Jonathan"
-            />
-            <TeamMemberCard
-              memberName="Ali Michael Doe"
-              membertitle="Co-Founde, CBO"
-              memberPicture={member2}
-              memberPictureAlt="Ali Michael Doe"
-            />
-            <TeamMemberCard
-              memberName="Avnish Hyuga"
-              membertitle="Lead Dev, CTO"
-              memberPicture={member3}
-              memberPictureAlt="Avnish Hyuga"
-            />
-            <TeamMemberCard
-              memberName="Rahul Gami"
-              membertitle="Designer"
-              memberPicture={member4}
-              memberPictureAlt="Rahul Gami"
-            />
-          </div>
         </div>
       </div>
     </div>
