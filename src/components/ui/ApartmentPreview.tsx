@@ -1,6 +1,8 @@
 import React from "react";
 
 import apartment from "../../assets/imperial.png";
+import imperialPreview from "../../assets/imperialPreview.png";
+
 import { IoBed } from "react-icons/io5";
 import { TbRulerMeasure } from "react-icons/tb";
 import { FaEuroSign } from "react-icons/fa";
@@ -46,11 +48,11 @@ const ApartmentPreview = () => {
             </div>
           </div>
         </div>
-        <div className="w-[60%] h-[600px] relative">
+        <div className="w-[50%] h-[600px] relative">
           <img
             src={apartment}
             alt="Imperial Heights"
-            className="h-full w-full"
+            className="h-full w-full rounded-xl"
           />
         </div>
       </div>
@@ -67,8 +69,10 @@ const ApartmentPreview = () => {
           <span className="text-accent text-5xl font-bold">4</span>
           <p>Balcony</p>
         </div>
-
       </div>
+       <div className="h-[900px] bg-grayish mt-16 flex items-center justify-center rounded-2xl">
+          <img src={imperialPreview} alt="Apartment Preview" className="object-contain"/>
+        </div>
       </div>
     </div>
   );
