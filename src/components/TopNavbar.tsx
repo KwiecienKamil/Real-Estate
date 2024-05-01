@@ -7,7 +7,7 @@ import logo from "../assets/home-logo.png";
 const TopNavbar = () => {
   return (
     <div className='pt-4 flex justify-center'>
-        <div className="w-[1600px] flex items-center justify-between">
+        <div className="w-[1400px] flex items-center justify-between">
             <div className="">
             <img src={logo} alt="logo" className="w-[60px]" />
             </div>

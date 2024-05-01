@@ -1,5 +1,4 @@
 import logo from "../assets/home-logo.png";
-import homePicture from "../assets/home-picture.png";
 
 import { IoSearchOutline } from "react-icons/io5";
 
@@ -12,7 +11,7 @@ const Header = () => {
           We Help You Building The Dreams & Bring More Than You Expect
         </h1>
         <div>
-          <button className="flex items-center gap-2 px-6 py-3 text-accent font-bold bg-white shadow-lg rounded-lg hover:bg-accent hover:text-white duration-300">
+          <button className="flex items-center gap-2 px-6 py-3 mb-8 text-accent font-bold bg-white shadow-lg rounded-lg hover:bg-accent hover:text-white duration-300">
             Search Properties
             <span>
               <IoSearchOutline />

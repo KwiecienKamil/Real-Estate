@@ -1,7 +1,7 @@
 import React from "react";
 
 type WhatWeDoProps = {
-  icon: string;
+  icon: JSX.Element;
   title: string;
   description: string;
 };

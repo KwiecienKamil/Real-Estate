@@ -11,7 +11,7 @@ const ApartmentPreview = () => {
   return (
     <div className="flex justify-center pt-32 cursor-default">
       <div>
-      <div className="w-[1600px] flex justify-between">
+      <div className="w-[1400px] flex justify-between">
         <div className="w-[30%]">
           <div className="pt-16 flex flex-col gap-2">
             <h3 className="text-3xl text-accent uppercase font-semibold">
@@ -71,7 +71,7 @@ const ApartmentPreview = () => {
         </div>
       </div>
        <div className="h-[900px] bg-grayish mt-16 flex items-center justify-center rounded-2xl">
-          <img src={imperialPreview} alt="Apartment Preview" className="object-contain"/>
+          <img src={imperialPreview} alt="Apartment Preview" className="w-[95%] h-[95%]"/>
         </div>
       </div>
     </div>

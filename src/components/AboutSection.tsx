@@ -1,19 +1,13 @@
-import React from "react";
-import TeamMemberCard from "./ui/TeamMemberCard";
-
-import member1 from "../assets/member1.png";
-import member2 from "../assets/member2.png";
-import member3 from "../assets/member3.png";
-import member4 from "../assets/member4.png";
 import WhatWeDo from "./ui/WhatWeDo";
 import { PiNotePencilFill } from "react-icons/pi";
 import { MdWeb } from "react-icons/md";
 import { AiTwotoneSound } from "react-icons/ai";
+import OurClients from "./OurClients";
 
 const AboutSection = () => {
   return (
     <div className="py-4 flex justify-center">
-      <div className="w-[1600px] relative">
+      <div className="w-[1400px]">
         <h6 className="text-3xl py-6 font-thin">What We Do</h6>
         <div className="flex items-center justify-between">
           <WhatWeDo
@@ -33,6 +27,7 @@ const AboutSection = () => {
             description="Marketing involves strategically promoting products, services, or ideas to target audiences to achieve specific business objectives."
           />
         </div>
+        <OurClients />
       </div>
     </div>
   );
